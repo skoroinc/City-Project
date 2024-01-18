@@ -6077,7 +6077,7 @@ MonoBehaviour:
     m_LineSpacing: 0.77
   m_Text: 'Creator:
 
-    
+
 
     Putin V.V. and others'
 --- !u!222 &937389117
@@ -6088,43 +6088,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937389114}
   m_CullTransparentMesh: 1
---- !u!1 &939681201
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 939681202}
-  m_Layer: 5
-  m_Name: Image'sBackground
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &939681202
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939681201}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1179188499}
-  - {fileID: 1356683450}
-  m_Father: {fileID: 1776606848}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.00036621094}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &944914025
 GameObject:
   m_ObjectHideFlags: 0
@@ -7278,16 +7241,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179188498}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.00010268332}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00027949}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 939681202}
+  m_Father: {fileID: 1776606848}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: 0, y: -0.0020751953}
+  m_SizeDelta: {x: 0, y: -0.005249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1179188500
 MonoBehaviour:
@@ -7757,10 +7720,10 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Russian
 
-    
 
-    A strong warrior, has a large reserve of health and
-    average damage.
+
+    A strong warrior, has a large reserve of health and average
+    damage.
 
     The ultimate - for Holy Russia can oneshot
 
@@ -8610,16 +8573,16 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356683447}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.00010268332}
+  m_LocalPosition: {x: 0, y: 0, z: -0.00078559}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 939681202}
+  m_Father: {fileID: 1776606848}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.00060133194}
-  m_SizeDelta: {x: 1920, y: 1080.0002}
+  m_AnchoredPosition: {x: 0, y: 0.00018310547}
+  m_SizeDelta: {x: 0, y: -0.00048828}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1378452724
 PrefabInstance:
@@ -10900,7 +10863,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 939681202}
+  - {fileID: 1356683450}
+  - {fileID: 1179188499}
   - {fileID: 1562765876}
   - {fileID: 272281235}
   - {fileID: 756086053}
